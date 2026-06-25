@@ -1,12 +1,15 @@
 {
-  "_comentario": "Ativos a coletar. ATUALIZE quando a carteira mudar. Os campos 'tipo' e 'vencimento' do Tesouro DEVEM bater EXATAMENTE com 'Tipo Titulo' e 'Data Vencimento' do CSV do Tesouro Transparente. 'indexador': prefixado|ipca|pos (usado para montar a curva nominal/real). NTNB_2079 e Tesouro RendA+ (codigo NTN-B1) - CONFIRMAR tipo/vencimento na 1a coleta.",
-
+  "_comentario": "Ativos a coletar. ATUALIZE quando a carteira mudar. Os campos tipo e vencimento do Tesouro DEVEM bater EXATAMENTE com Tipo Titulo e Data Vencimento do CSV do Tesouro Transparente. indexador: prefixado|ipca|pos (monta a curva nominal/real). NTNB_2079 e Tesouro RendA+ (codigo NTN-B1) - CONFIRMAR na 1a coleta.",
   "acoes": ["BBAS3", "PETR4", "MOVI3", "AXIA3", "BBSE3", "VALE3", "LFTB11"],
-
   "tesouro": [
-    {"id": "LTN_2027",  "tipo": "Tesouro Prefixado",                      "vencimento": "01/01/2027", "indexador": "prefixado", "carteira": "LTN jan/2027"},
-    {"id": "LTN_2028",  "tipo": "Tesouro Prefixado",                      "vencimento": "01/01/2028", "indexador": "prefixado", "carteira": "LTN jan/2028"},
-    {"id": "LTN_2029",  "tipo": "Tesouro Prefixado",                      "vencimento": "01/01/2029", "indexador": "prefixado", "carteira": "LTN jan/2029"},
-    {"id": "LTN_2032",  "tipo": "Tesouro Prefixado",                      "vencimento": "01/01/2032", "indexador": "prefixado", "carteira": "LTN jan/2032"},
-    {"id": "NTNB_2029", "tipo": "Tesouro IPCA+",                          "vencimento": "15/05/2029", "indexador": "ipca",      "carteira": "NTNB PRINC mai/2029"},
-    {"id": "NTNB_2032", "tipo": 
+    {"id": "LTN_2027", "tipo": "Tesouro Prefixado", "vencimento": "01/01/2027", "indexador": "prefixado", "carteira": "LTN jan/2027"},
+    {"id": "LTN_2028", "tipo": "Tesouro Prefixado", "vencimento": "01/01/2028", "indexador": "prefixado", "carteira": "LTN jan/2028"},
+    {"id": "LTN_2029", "tipo": "Tesouro Prefixado", "vencimento": "01/01/2029", "indexador": "prefixado", "carteira": "LTN jan/2029"},
+    {"id": "LTN_2032", "tipo": "Tesouro Prefixado", "vencimento": "01/01/2032", "indexador": "prefixado", "carteira": "LTN jan/2032"},
+    {"id": "NTNB_2029", "tipo": "Tesouro IPCA+", "vencimento": "15/05/2029", "indexador": "ipca", "carteira": "NTNB PRINC mai/2029"},
+    {"id": "NTNB_2032", "tipo": "Tesouro IPCA+", "vencimento": "15/08/2032", "indexador": "ipca", "carteira": "NTNB PRINC ago/2032"},
+    {"id": "NTNB_2035", "tipo": "Tesouro IPCA+ com Juros Semestrais", "vencimento": "15/05/2035", "indexador": "ipca", "carteira": "NTN-B mai/2035"},
+    {"id": "NTNB_2079", "tipo": "Tesouro Renda+ Aposentadoria Extra", "vencimento": "15/12/2079", "indexador": "ipca", "carteira": "NTN-B1 dez/2079 (CONFIRMAR RendA+)"},
+    {"id": "LFT_2027", "tipo": "Tesouro Selic", "vencimento": "01/03/2027", "indexador": "pos", "carteira": "LFT mar/2027"}
+  ]
+}
