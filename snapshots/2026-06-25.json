@@ -1,30 +1,30 @@
 {
   "data": "2026-06-25",
-  "gerado_em": "2026-06-25T19:03:46Z",
+  "gerado_em": "2026-06-25T19:55:51Z",
   "acoes": {
     "BBAS3": {
-      "preco": 20.06,
-      "var_dia_pct": 1.6726
+      "preco": 20.08,
+      "var_dia_pct": 1.774
     },
     "PETR4": {
-      "preco": 38.49,
-      "var_dia_pct": 0.5223
+      "preco": 38.43,
+      "var_dia_pct": 0.3656
     },
     "MOVI3": {
-      "preco": 9.71,
-      "var_dia_pct": 1.569
+      "preco": 9.76,
+      "var_dia_pct": 2.092
     },
     "AXIA3": {
-      "preco": 54.91,
-      "var_dia_pct": 1.3474
+      "preco": 55.21,
+      "var_dia_pct": 1.9011
     },
     "BBSE3": {
-      "preco": 38.98,
-      "var_dia_pct": 0.7756
+      "preco": 38.92,
+      "var_dia_pct": 0.6205
     },
     "VALE3": {
-      "preco": 78.66,
-      "var_dia_pct": 1.1964
+      "preco": 78.54,
+      "var_dia_pct": 1.0421
     },
     "LFTB11": {
       "preco": 122.79,
