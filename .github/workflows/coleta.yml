@@ -21,16 +21,29 @@ jobs:
       - name: Coletar snapshot
         env:
           BRAPI_TOKEN: ${{ secrets.BRAPI_TOKEN }}
-          ANBIMA_DEBUG: "1"
         run: python coletor.py
       - name: Commitar snapshot
         run: |
           git config user.name  "dados-mercado-bot"
           git config user.email "actions@github.com"
-          git add snapshots/*.json anbima_raw.txt 2>/dev/null || true
+          git add snapshots/*.json || true
           if git diff --cached --quiet; then
-            echo "Nada novo para commitar."
+            echo "Sem snapshot novo para commitar."
           else
             git commit -m "snapshot $(date -u +%Y-%m-%d)"
             git push
           fi
+      - name: Alertar se fonte critica falhar
+        run: |
+          python3 - <<'PY'
+          import json, glob, sys
+          arq = sorted(glob.glob("snapshots/*.json"))
+          if not arq:
+              print("::error::Nenhum snapshot gerado"); sys.exit(1)
+          fontes = json.load(open(arq[-1]))["status"]["fontes"]
+          falhas = [k for k in ("acoes", "tesouro") if not fontes.get(k, {}).get("ok")]
+          if falhas:
+              print(f"::error::Fontes criticas falharam hoje: {falhas}. Veja o snapshot.")
+              sys.exit(1)
+          print("Fontes criticas OK (acoes + tesouro).")
+          PY
