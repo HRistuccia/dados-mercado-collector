@@ -1,0 +1,19 @@
+{
+  "_comentario": "Lista de ativos a coletar. ATUALIZE quando sua carteira mudar. Pre-preenchido a partir de 08_Carteira/2026-05-31_carteira.xlsx. Os 'match' do Tesouro sao trechos do NOME OFICIAL no Tesouro Direto e devem ser confirmados na 1a execucao (ver README).",
+
+  "acoes": ["BBAS3", "PETR4", "MOVI3", "AXIA3", "BBSE3", "VALE3", "LFTB11"],
+
+  "tesouro": [
+    {"id": "LTN_2027", "match": "Prefixado 2027",                 "carteira": "LTN jan/2027"},
+    {"id": "LTN_2028", "match": "Prefixado 2028",                 "carteira": "LTN jan/2028"},
+    {"id": "LTN_2029", "match": "Prefixado 2029",                 "carteira": "LTN jan/2029"},
+    {"id": "LTN_2032", "match": "Prefixado 2032",                 "carteira": "LTN jan/2032"},
+    {"id": "NTNB_2029", "match": "IPCA+ 2029",                    "carteira": "NTNB PRINC mai/2029"},
+    {"id": "NTNB_2032", "match": "IPCA+ 2032",                    "carteira": "NTNB PRINC ago/2032"},
+    {"id": "NTNB_2035", "match": "IPCA+ com Juros Semestrais 2035", "carteira": "NTN-B mai/2035"},
+    {"id": "NTNB_2079", "match": "IPCA+ com Juros Semestrais 2079", "carteira": "NTN-B1 dez/2079"},
+    {"id": "LFT_2027", "match": "Selic 2027",                     "carteira": "LFT mar/2027"}
+  ],
+
+  "vertices": [252, 504, 1260, 2520]
+}
