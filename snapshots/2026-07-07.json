@@ -1,0 +1,65 @@
+{
+  "data": "2026-07-07",
+  "gerado_em": "2026-07-07T10:34:34Z",
+  "acoes": {
+    "BBAS3": {
+      "preco": 19.77,
+      "var_dia_pct": -1.051
+    },
+    "PETR4": {
+      "preco": 37.77,
+      "var_dia_pct": -1.2549
+    },
+    "MOVI3": {
+      "preco": 9.15,
+      "var_dia_pct": -3.6842
+    },
+    "AXIA3": {
+      "preco": 53.54,
+      "var_dia_pct": -0.7967
+    },
+    "BBSE3": {
+      "preco": 38.71,
+      "var_dia_pct": 0.1552
+    },
+    "VALE3": {
+      "preco": 77.79,
+      "var_dia_pct": -1.3318
+    },
+    "LFTB11": {
+      "preco": 123.3,
+      "var_dia_pct": 0.2032
+    }
+  },
+  "cdi_dia": 0.052531,
+  "cdi_data_ref": "03/07/2026",
+  "tesouro": {},
+  "curva": {
+    "nominal": {},
+    "real": {}
+  },
+  "status": {
+    "fontes": {
+      "acoes": {
+        "fonte": "brapi.dev+yfinance",
+        "ok": true,
+        "erro": null
+      },
+      "cdi": {
+        "fonte": "BCB SGS 12",
+        "ok": true,
+        "erro": null
+      },
+      "tesouro": {
+        "fonte": "Tesouro Transparente",
+        "ok": false,
+        "erro": "Tesouro Transparente falhou: <urlopen error [Errno 110] Connection timed out>"
+      },
+      "curva": {
+        "fonte": "derivada do Tesouro",
+        "ok": false,
+        "erro": "sem taxas de titulos"
+      }
+    }
+  }
+}
