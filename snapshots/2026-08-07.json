@@ -1,124 +1,124 @@
 {
   "data": "2026-08-07",
-  "gerado_em": "2026-08-07T01:04:46Z",
+  "gerado_em": "2026-08-07T22:17:30Z",
   "acoes": {
     "BBAS3": {
-      "preco": 20.28,
-      "var_dia_pct": -3.658
+      "preco": 20.06,
+      "var_dia_pct": -1.0848
     },
     "PETR4": {
-      "preco": 42.13,
-      "var_dia_pct": 0.477
+      "preco": 40.87,
+      "var_dia_pct": -2.9907
     },
     "MOVI3": {
-      "preco": 7.71,
-      "var_dia_pct": -3.1407
+      "preco": 7.76,
+      "var_dia_pct": 0.6485
     },
     "AXIA3": {
-      "preco": 53.17,
-      "var_dia_pct": -1.0054
+      "preco": 53.05,
+      "var_dia_pct": -0.2257
     },
     "BBSE3": {
-      "preco": 40.96,
-      "var_dia_pct": -1.7039
+      "preco": 38.38,
+      "var_dia_pct": -1.5309
     },
     "VALE3": {
-      "preco": 75.39,
-      "var_dia_pct": -1.6567
+      "preco": 74.97,
+      "var_dia_pct": -0.5571
     },
     "LFTB11": {
-      "preco": 124.69,
-      "var_dia_pct": 0.0241
+      "preco": 124.73,
+      "var_dia_pct": 0.0321
     }
   },
-  "cdi_dia": 0.052531,
-  "cdi_data_ref": "05/08/2026",
+  "cdi_dia": 0.05166,
+  "cdi_data_ref": "06/08/2026",
   "tesouro": {
     "LTN_2027": {
       "nome": "LTN jan/2027",
       "indexador": "prefixado",
       "vencimento": "01/01/2027",
-      "data_base": "2026-08-05",
-      "preco": 949.49,
-      "taxa": 13.54
+      "data_base": "2026-08-06",
+      "preco": 949.94,
+      "taxa": 13.55
     },
     "LTN_2028": {
       "nome": "LTN jan/2028",
       "indexador": "prefixado",
       "vencimento": "01/01/2028",
-      "data_base": "2026-08-05",
-      "preco": 833.64,
-      "taxa": 13.75
+      "data_base": "2026-08-06",
+      "preco": 833.25,
+      "taxa": 13.83
     },
     "LTN_2029": {
       "nome": "LTN jan/2029",
       "indexador": "prefixado",
       "vencimento": "01/01/2029",
-      "data_base": "2026-08-05",
-      "preco": 730.09,
-      "taxa": 13.98
+      "data_base": "2026-08-06",
+      "preco": 728.49,
+      "taxa": 14.11
     },
     "LTN_2032": {
       "nome": "LTN jan/2032",
       "indexador": "prefixado",
       "vencimento": "01/01/2032",
-      "data_base": "2026-08-05",
-      "preco": 484.91,
-      "taxa": 14.3
+      "data_base": "2026-08-06",
+      "preco": 482.9,
+      "taxa": 14.4
     },
     "NTNB_2029": {
       "nome": "NTNB PRINC mai/2029",
       "indexador": "ipca",
       "vencimento": "15/05/2029",
-      "data_base": "2026-08-05",
-      "preco": 3814.54,
-      "taxa": 8.12
+      "data_base": "2026-08-06",
+      "preco": 3809.04,
+      "taxa": 8.19
     },
     "NTNB_2032": {
       "nome": "NTNB PRINC ago/2032",
       "indexador": "ipca",
       "vencimento": "15/08/2032",
-      "data_base": "2026-08-05",
-      "preco": 2954.88,
-      "taxa": 8.09
+      "data_base": "2026-08-06",
+      "preco": 2942.79,
+      "taxa": 8.17
     },
     "NTNB_2035": {
       "nome": "NTN-B mai/2035",
       "indexador": "ipca",
       "vencimento": "15/05/2035",
-      "data_base": "2026-08-05",
-      "preco": 4218.58,
-      "taxa": 7.98
+      "data_base": "2026-08-06",
+      "preco": 4196.58,
+      "taxa": 8.07
     },
     "NTNB_2079": {
       "nome": "NTN-B1 dez/2079 (CONFIRMAR RendA+)",
       "indexador": "ipca",
       "vencimento": "15/12/2079",
-      "data_base": "2026-08-05",
-      "preco": 250.67,
-      "taxa": 7.13
+      "data_base": "2026-08-06",
+      "preco": 244.14,
+      "taxa": 7.2
     },
     "LFT_2027": {
       "nome": "LFT mar/2027",
       "indexador": "pos",
       "vencimento": "01/03/2027",
-      "data_base": "2026-08-05",
-      "preco": 19588.14,
+      "data_base": "2026-08-06",
+      "preco": 19598.47,
       "taxa": 0.0
     }
   },
   "curva": {
     "nominal": {
-      "LTN_2027": 13.54,
-      "LTN_2028": 13.75,
-      "LTN_2029": 13.98,
-      "LTN_2032": 14.3
+      "LTN_2027": 13.55,
+      "LTN_2028": 13.83,
+      "LTN_2029": 14.11,
+      "LTN_2032": 14.4
     },
     "real": {
-      "NTNB_2029": 8.12,
-      "NTNB_2032": 8.09,
-      "NTNB_2035": 7.98,
-      "NTNB_2079": 7.13
+      "NTNB_2029": 8.19,
+      "NTNB_2032": 8.17,
+      "NTNB_2035": 8.07,
+      "NTNB_2079": 7.2
     }
   },
   "status": {
