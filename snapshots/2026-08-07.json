@@ -1,0 +1,148 @@
+{
+  "data": "2026-08-07",
+  "gerado_em": "2026-08-07T01:04:46Z",
+  "acoes": {
+    "BBAS3": {
+      "preco": 20.28,
+      "var_dia_pct": -3.658
+    },
+    "PETR4": {
+      "preco": 42.13,
+      "var_dia_pct": 0.477
+    },
+    "MOVI3": {
+      "preco": 7.71,
+      "var_dia_pct": -3.1407
+    },
+    "AXIA3": {
+      "preco": 53.17,
+      "var_dia_pct": -1.0054
+    },
+    "BBSE3": {
+      "preco": 40.96,
+      "var_dia_pct": -1.7039
+    },
+    "VALE3": {
+      "preco": 75.39,
+      "var_dia_pct": -1.6567
+    },
+    "LFTB11": {
+      "preco": 124.69,
+      "var_dia_pct": 0.0241
+    }
+  },
+  "cdi_dia": 0.052531,
+  "cdi_data_ref": "05/08/2026",
+  "tesouro": {
+    "LTN_2027": {
+      "nome": "LTN jan/2027",
+      "indexador": "prefixado",
+      "vencimento": "01/01/2027",
+      "data_base": "2026-08-05",
+      "preco": 949.49,
+      "taxa": 13.54
+    },
+    "LTN_2028": {
+      "nome": "LTN jan/2028",
+      "indexador": "prefixado",
+      "vencimento": "01/01/2028",
+      "data_base": "2026-08-05",
+      "preco": 833.64,
+      "taxa": 13.75
+    },
+    "LTN_2029": {
+      "nome": "LTN jan/2029",
+      "indexador": "prefixado",
+      "vencimento": "01/01/2029",
+      "data_base": "2026-08-05",
+      "preco": 730.09,
+      "taxa": 13.98
+    },
+    "LTN_2032": {
+      "nome": "LTN jan/2032",
+      "indexador": "prefixado",
+      "vencimento": "01/01/2032",
+      "data_base": "2026-08-05",
+      "preco": 484.91,
+      "taxa": 14.3
+    },
+    "NTNB_2029": {
+      "nome": "NTNB PRINC mai/2029",
+      "indexador": "ipca",
+      "vencimento": "15/05/2029",
+      "data_base": "2026-08-05",
+      "preco": 3814.54,
+      "taxa": 8.12
+    },
+    "NTNB_2032": {
+      "nome": "NTNB PRINC ago/2032",
+      "indexador": "ipca",
+      "vencimento": "15/08/2032",
+      "data_base": "2026-08-05",
+      "preco": 2954.88,
+      "taxa": 8.09
+    },
+    "NTNB_2035": {
+      "nome": "NTN-B mai/2035",
+      "indexador": "ipca",
+      "vencimento": "15/05/2035",
+      "data_base": "2026-08-05",
+      "preco": 4218.58,
+      "taxa": 7.98
+    },
+    "NTNB_2079": {
+      "nome": "NTN-B1 dez/2079 (CONFIRMAR RendA+)",
+      "indexador": "ipca",
+      "vencimento": "15/12/2079",
+      "data_base": "2026-08-05",
+      "preco": 250.67,
+      "taxa": 7.13
+    },
+    "LFT_2027": {
+      "nome": "LFT mar/2027",
+      "indexador": "pos",
+      "vencimento": "01/03/2027",
+      "data_base": "2026-08-05",
+      "preco": 19588.14,
+      "taxa": 0.0
+    }
+  },
+  "curva": {
+    "nominal": {
+      "LTN_2027": 13.54,
+      "LTN_2028": 13.75,
+      "LTN_2029": 13.98,
+      "LTN_2032": 14.3
+    },
+    "real": {
+      "NTNB_2029": 8.12,
+      "NTNB_2032": 8.09,
+      "NTNB_2035": 7.98,
+      "NTNB_2079": 7.13
+    }
+  },
+  "status": {
+    "fontes": {
+      "acoes": {
+        "fonte": "brapi.dev+yfinance",
+        "ok": true,
+        "erro": null
+      },
+      "cdi": {
+        "fonte": "BCB SGS 12",
+        "ok": true,
+        "erro": null
+      },
+      "tesouro": {
+        "fonte": "Tesouro Transparente",
+        "ok": true,
+        "erro": null
+      },
+      "curva": {
+        "fonte": "derivada do Tesouro",
+        "ok": true,
+        "erro": null
+      }
+    }
+  }
+}
