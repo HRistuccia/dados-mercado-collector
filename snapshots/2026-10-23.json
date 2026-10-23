@@ -1,38 +1,38 @@
 {
   "data": "2026-10-23",
-  "gerado_em": "2026-10-23T00:08:55Z",
+  "gerado_em": "2026-10-23T23:59:20Z",
   "acoes": {
     "BBAS3": {
-      "preco": 23.92,
-      "var_dia_pct": -0.7469
+      "preco": 24.72,
+      "var_dia_pct": 3.3445
     },
     "PETR4": {
-      "preco": 57.83,
-      "var_dia_pct": 0.1385
+      "preco": 58.68,
+      "var_dia_pct": 1.4698
     },
     "MOVI3": {
-      "preco": 18.34,
-      "var_dia_pct": -3.0655
+      "preco": 18.67,
+      "var_dia_pct": 1.7993
     },
     "AXIA3": {
-      "preco": 59.08,
-      "var_dia_pct": 0.8535
+      "preco": 58.0,
+      "var_dia_pct": -1.828
     },
     "BBSE3": {
-      "preco": 43.33,
-      "var_dia_pct": 2.049
+      "preco": 43.68,
+      "var_dia_pct": 0.8078
     },
     "VALE3": {
-      "preco": 61.49,
-      "var_dia_pct": -3.9669
+      "preco": 61.9,
+      "var_dia_pct": 0.6668
     },
     "LFTB11": {
-      "preco": 129.47,
-      "var_dia_pct": 0.2167
+      "preco": 129.72,
+      "var_dia_pct": 0.1931
     }
   },
   "cdi_dia": 0.050788,
-  "cdi_data_ref": "21/10/2026",
+  "cdi_data_ref": "22/10/2026",
   "tesouro": {
     "LTN_2027": {
       "nome": "LTN jan/2027",
