@@ -1,0 +1,65 @@
+{
+  "data": "2026-11-25",
+  "gerado_em": "2026-11-25T04:33:57Z",
+  "acoes": {
+    "BBAS3": {
+      "preco": 14.2,
+      "var_dia_pct": null
+    },
+    "PETR4": {
+      "preco": 41.3,
+      "var_dia_pct": null
+    },
+    "MOVI3": {
+      "preco": 5.81,
+      "var_dia_pct": null
+    },
+    "AXIA3": {
+      "preco": 45.52,
+      "var_dia_pct": null
+    },
+    "BBSE3": {
+      "preco": 36.51,
+      "var_dia_pct": null
+    },
+    "VALE3": {
+      "preco": 58.41,
+      "var_dia_pct": null
+    },
+    "LFTB11": {
+      "preco": 128.93,
+      "var_dia_pct": null
+    }
+  },
+  "cdi_dia": 0.050788,
+  "cdi_data_ref": "23/11/2026",
+  "tesouro": {},
+  "curva": {
+    "nominal": {},
+    "real": {}
+  },
+  "status": {
+    "fontes": {
+      "acoes": {
+        "fonte": "brapi.dev+yfinance",
+        "ok": true,
+        "erro": null
+      },
+      "cdi": {
+        "fonte": "BCB SGS 12",
+        "ok": true,
+        "erro": null
+      },
+      "tesouro": {
+        "fonte": "Tesouro Transparente",
+        "ok": false,
+        "erro": "Tesouro Transparente falhou: <urlopen error [Errno 104] Connection reset by peer>"
+      },
+      "curva": {
+        "fonte": "derivada do Tesouro",
+        "ok": false,
+        "erro": "sem taxas de titulos"
+      }
+    }
+  }
+}
